@@ -1,0 +1,22 @@
+# Rule Engine with Abstract Syntax Tree (AST)
+
+## Objective
+This application is a 3-tier rule engine designed to determine user eligibility based on attributes like age, department, income, etc. It uses an Abstract Syntax Tree (AST) to represent rules, allowing dynamic rule creation, combination, and modification.
+
+## Features
+- Dynamic rule creation based on user-defined conditions
+- AST representation of rules for efficient processing
+- Supports combining multiple rules into a single AST
+- Evaluates rules against provided data
+- Stores rules and AST nodes in a MySQL database
+
+## Requirements
+- Python 3.8+
+- MySQL
+- Flask (for API)
+- SQLAlchemy (for ORM)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/rule-engine-with-ast.git
